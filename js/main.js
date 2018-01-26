@@ -14,3 +14,13 @@ function change(){
 var name = 'Lucille'; // Store a string in a var
 var numberOfWidgets = 10; // number
 var isCodingCool = true; // boolean
+console.log(name); // log the value of a var to the console
+
+// store an array in a var
+var characters = [50, true, 'Lucille', 'Michael Bluth', 'Tobias', 10, 2];
+console.log(characters[0]);
+
+/*
+Create some variables, store some data in them,
+output them to the console.
+*/
