@@ -24,3 +24,34 @@ console.log(characters[0]);
 Create some variables, store some data in them,
 output them to the console.
 */
+// Multi-dimensional array
+var meat = ['ham', 'bologna', 'turkey'];
+var fruit = ['oranges', 'apples', 'grapes'];
+var food = [meat, fruit];
+console.log(food[1][0]); // logs 'oranges' to the console
+
+// var food = [['ham', 'bolgna', 'turkey'], ['oranges']]; // could also be written like this
+
+// Object:
+var user = {
+	firstName: 'Lucille',
+	age: 40,
+	lastName: 'Bluth',
+	hasHair: true,
+	'has-feet': true
+};
+// access properties of our user obj using dot notation
+console.log(user.firstName); // log 'Lucille'
+// we can also access properties on objs using bracket notation
+console.log(user['firstName']); // log 'Lucille'
+console.log(user['has-feet']); // NEED to use square bracket
+
+// two vars, each containing a #
+var num1 = 100;
+var num2 = 50;
+console.log('the result is: ' + (num1 - num2)); // outputs 50 to the console
+console.log('my num1 is ' + num1 + ' That is my number!!');
+
+var string1 = 'Bill';
+var string2 = 'Keller';
+alert(string1 + ' ' + string2);
